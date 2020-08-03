@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(90deg, rgba(251, 251, 251, 1) 0%, rgba(122, 223, 232, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+h1::selection {
+    background-color: transparent;
+}
+
+.balloon {
+    width: 70px;
+    height: 100px;
+    border-radius: 60%;
+    position: absolute;
+    transition-duration: 0.7s;
+    border: solid 2px white;
+}
+
+.sky {
+    width: 100%;
+    height: 100%;
+}
+
+.shine {
+    height: 7px;
+    width: 5px;
+    border-radius: 60%;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.tail {
+    position: relative;
+    height: 60px;
+    left: 35px;
+    top: 95px;
+    width: 0.5px;
+    background-color: black;
+}
